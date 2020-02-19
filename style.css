@@ -277,8 +277,37 @@ svg:last-child {
 	-webkit-text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1050px) {
-    .project-body div {
+@media only screen and (max-width: 800px) {
+
+    header {
+        background-size: 350px;
+    }
+
+    .menu-item {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .about-wrapper {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    .project, .project-img {
+        display: block
+    }
+
+    .project-body {
+        text-align: center;
+    }
+
+    .contact-wrapper {
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    .contact-wrapper .links span {
+        font-size: 0.3em;
     }
 }
 
