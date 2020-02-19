@@ -202,12 +202,28 @@ svg:last-child {
 
 .contact-wrapper {
     width: 70%;
-    margin: 0 auto;
+    margin: 15em auto;
     text-align: center;
 }
 
-.contact-wrapper h1 {
-    font-size: 3em;
+.contact-name {
+    font-size: 5vw;
+    font-weight: bold;
+    line-height: .9em;
+    margin: 0;
+}
+
+.contact-wrapper p:first-of-type {
+    font-size: 8vw;
+    color: rgba(207, 34, 37, 1);
+}
+
+.contact-wrapper p:nth-of-type(2) {
+    color: rgb(255, 83, 41, 0.5);
+}
+
+.contact-wrapper p:nth-of-type(3) {
+    color: rgb(255, 162, 41, 0.3);
 }
 
 
