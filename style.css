@@ -87,7 +87,6 @@ header ul {
 .name {
     color: rgba(207, 34, 37);
     position: relative;
-    cursor: pointer;
 }
 
 .name::before, .name::after {
@@ -201,6 +200,14 @@ svg:last-child {
     margin-right: 1em;
 }
 
+.contact-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.contact-wrapper h1 {
+    font-size: 3em;
+}
 
 
