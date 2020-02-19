@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4a3eda80d3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Marti McElreath</title>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar-list">
+            <li class="menu-item"><a class="active" href="#">About</a></li>
+            <li class="menu-item"><a href="#">Projects</a></li>
+            <li class="menu-item"><a href="#">Contact</a></li>
+            <li class="menu-item"><a href="#"><i class="fab fa-github"></i></a></li>
+            <li class="menu-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </header>
+    <div id="about" class="about-wrapper">
+        <span class="title">My name is <span tool-tip-text="マーティ or 마티 or" class="name">Marti</span>.</span>
+        <br>I'm a full-stack web developer, amateur artist and trilingual polyglot, and I want to work with you.
+        <p>
+            I'm passionate about <b>clever, succinct code</b> and building out projects <b>from start to finish</b> -
+            from intuitive user interfaces to RESTful APIs and database management, <span class="emphasize">I do it
+                all</span>.
+        </p>
+        <p>
+            Still not convinced? Check out my projects below!
+        </p>
+    </div>
+    <div id="projects" class="project-wrapper" data-aos="fade-up" data-aos-duration="1000">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 0,100 100,0"/>
+          </svg>
+        <h1 class="title">Projects</h1>
+        <div class="project">
+            <img src="assets/images/date-rescue/date-rescue2.png">
+            <div class="project-body">
+                <h2 class="title">Date Rescue</h2>
+                <div><span class="language">React</span><span class="language">MySQL</span></div>
+                <div class="project-summary">
+                    Dating safety app made to help people feel secure when meeting potential new flames off of dating
+                    apps. Users can generate a public “date page” that contains information about their upcoming meeting
+                    to share with friends, or schedule a “rescue call” from the app, which will dial them at a time of
+                    their choice (providing them a convenient escape in case their date turns sour).
+                </div>
+                <div><a href="#"><i class="fab fa-github"></i> Github</a><a href="#"><i class="fas fa-external-link-alt"></i> Deployed</a></div>
+            </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/images/wordlove/wordlove2.png">
+            <div class="project-body">
+                <h2 class="title">WordLove</h2>
+                <div><span class="language">HTML/CSS</span><span class="language">jQuery</span><span class="language">Handlebars</span><span class="language">MySQL</span></div>
+                <div class="project-summary">
+                    WordLove is a vocabulary-learning app that allows users to search for words and phrases in other
+                    languages (currently supports Spanish, German, Japanese, and Chinese) and save the results of their
+                    choice to customizable vocabulary lists. The saved vocabulary can be assigned a difficulty,
+                    user-created definitions, and notes to assist the user in memorizing the words based on their
+                    learning needs and style.
+                </div>
+                <div><a href="#"><i class="fab fa-github"></i> Github</a><a href="#"><i class="fas fa-external-link-alt"></i> Deployed</a></div>
+            </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/images/the-library/the-library1.png">
+            <div class="project-body">
+                <h2 class="title">The Library</h2>
+                <div><span class="language">Django</span><span class="language">Python</span></div>
+                <div class="project-summary">
+                    The Library is a simple library app made with Django and SQLite. Users can input information about
+                    their books, including title, author, synopsis, image, and their own personal reviews and thoughts.
+                    They can then search their collection by the book's title, author, or review, or browse all of their
+                    books in the order of their choosing.
+                </div>
+                <div><a href="#"><i class="fab fa-github"></i> Github</a><a href="#"><i class="fas fa-external-link-alt"></i> Deployed</a></div>
+            </div>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/images/musiholic/musiholic1.png">
+            <div class="project-body">
+                <h2 class="title">Musiholic</h2>
+                <div><span class="language">Vue</span></div>
+                <div class="project-summary">
+                    Looking for the perfect cocktail and music combination? Sit back, relax, and open this app! Users
+                    can search for drinks by name or based on the ingredients they have at home, and the app will
+                    suggest a song to accompany their beverage. Already have some music queued up? Let Musiholic know
+                    what you’re listening to and it will recommend a drink to match your genre of choice.
+                </div>
+                <div><a href="#"><i class="fab fa-github"></i> Github</a><a href="#"><i class="fas fa-external-link-alt"></i> Deployed</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
