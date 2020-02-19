@@ -12,6 +12,7 @@ dark grey: rgba(66, 66, 66);
 
 body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
     color: rgba(66, 66, 66);
     margin: 0;
 }
@@ -47,15 +48,10 @@ header ul {
     color: rgba(207, 34, 37);
 }
 
-.menu-item .active {
-    color: rgb(45, 164, 168);
-}
-
 .about-wrapper {
     width: 70%;
-    margin: 0 auto;
+    margin: 1em auto 8em auto;
     text-align: center;
-    margin-top: 1em;
     font-size: 2em;
     line-height: 1.5em;
 }
@@ -126,7 +122,6 @@ header ul {
     background-image: linear-gradient(rgb(45, 164, 168), rgba(67, 87, 114));
     position: relative;
     width: 100%;
-    margin-top: 12em;
     padding: 4em 2em 12em 2em;
     text-align: center;
 }
@@ -149,13 +144,8 @@ svg:last-child {
     z-index: 1;
 }
 
-.project-wrapper h1 {
-    position: absolute;
-    top: -70px;
-    left: calc(50% - 1.75em);
+.project-title {
     font-size: 3.8em;
-    margin: 0;
-    z-index: 1001;
 }
 
 .project {
