@@ -166,26 +166,36 @@ svg:last-child {
     z-index: 1001;
 }
 
-.project img {
-    width: 40%;
+.project-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 40%;
+}
+
+.project-img img {
+    max-width: 100%;
+    max-height: 330px;
     border: 2px white solid;
     border-radius: 5px;
 }
 
 .project-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     text-align: left;
+    max-width: 650px;
     margin: 0 2em;
+    flex-basis: 60%;
 }
 
 .project-body .title {
     font-size: 2.5em;
-    margin: 0;
 }
 
-.project-body .language {
+.project-body .title, .project-languages, .project-summary {
+    margin: 20px 0;
+}
+
+.language {
     background: rgb(0,0,0);
     background: linear-gradient(rgba(207, 34, 37, 1) 75%, rgb(240, 36, 36) 100%);
     color: white;
@@ -249,7 +259,7 @@ svg:last-child {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
-    font-size: 4.5em;
+    font-size: 4.0em;
 }
 
 .contact-wrapper .links i:before {
@@ -267,6 +277,10 @@ svg:last-child {
 	-webkit-text-fill-color: transparent;
 }
 
+@media only screen and (max-width: 1050px) {
+    .project-body div {
+    }
+}
 
 
 
